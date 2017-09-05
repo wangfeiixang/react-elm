@@ -1,0 +1,190 @@
+
+body,html{
+    background: #fff !important;
+}
+p{
+    margin: 0;
+}
+
+header.bar{
+    padding: .266667rem .373333rem;
+    background-image: -webkit-linear-gradient(left,#0af,#0085ff);
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    color: #fff;
+    height:6rem;
+    a{
+        color: #fff;
+    }
+    .top-box{
+        box-sizing: border-box;
+        padding: 0px 10px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        a span.tab{
+            display: inline-block;
+            font-size: 0.9rem ;
+        }  
+        i.iconfont{
+            font-size:10px;
+        } 
+        a.wet{
+            display: flex;
+            justify-content: space-around;
+            span.weather{
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               font-size: 10px;
+                i{
+                    font-style:normal;
+                    font-size:14px;
+                    text-align: center;
+                }
+            }
+        }
+        img{
+                width: 1.32rem;
+                height: 1.32rem;
+            }        
+    }
+    .top-center{
+        input.button{
+            display: block;
+            background: #fff !important;
+            width: 100%;
+            height: 1.728rem;
+            text-align: center;
+            border-radius: 1.728rem;
+            color: #333;
+            font-size: .63rem;
+         }
+        .hot-search{
+            margin-top: 0.5rem;
+            .swiper-slide{
+                 font-size: 16px;
+                width:auto;
+                color: #fff;
+            } 
+
+        }
+    }
+}
+.bar-nav~.content {
+    top: 4rem;
+}
+nav.bar a.flexbox{
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+    width: 25%;
+    float:left;
+    height: auto;
+}
+nav.bar a.flexbox span.iconfont{
+        padding-top:5px;
+    }
+nav.bar a.flexbox span.tab-label{
+         padding-bottom:5px;
+    }
+.content-block .swiper-wrapper{
+    margin-top:10px;
+    .swiper-slide{
+        display: flex;
+        flex-flow:column;
+        justify-content: center;
+        margin-top:10px !important;
+        img{
+            border-radius: 50%;
+            width: 2.16rem;
+            height: 2.16rem;
+                margin-left: 0.6rem;
+        }
+        span{
+            text-align: center;
+            display:inline-block;
+            color: #666;
+            font-size: 12px;
+        }
+    }
+
+}
+#scroller{
+    position: relative;
+}
+.shopping-list{
+    .card{
+        margin:0.5rem 0;
+        overflow: hidden;
+    }
+    .img{
+        width: 2.88rem;
+        height: 2.88rem;
+        margin:0 0.6rem;
+        margin-top: 0.3rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .cont{
+        padding-bottom: 0.5rem;
+        width: 13.1rem;
+        h3{
+            margin: 0;
+            overflow: hidden;
+        }
+        p.order{
+            overflow: hidden;
+            span.orderPeople{
+                margin-right: 5px;
+            }
+        }
+        p.remission{
+            span i{
+                display: inline-block;
+                font-style: normal;
+                margin-right: 5px;                   
+
+            }
+            span i.green{
+                background-color: rgb(112, 188, 70);
+                color: rgb(255, 255, 255);
+                border-color: rgb(112, 188, 70);                
+            }
+            span i.red{
+               background-color: rgb(240, 115, 115);
+                color: rgb(255, 255, 255);
+                border-color: rgb(240, 115, 115);               
+            } 
+            span i.orange{
+                background-color: rgb(241, 136, 79);
+                color: rgb(255, 255, 255);
+                border-color: rgb(241, 136, 79);              
+            } 
+            span i.blue{
+                background-color: rgb(60, 199, 145);
+                color: rgb(255, 255, 255);
+                border-color: rgb(60, 199, 145);             
+            }                                        
+            span.user{
+                display: block;
+                margin-bottom: 5px;
+                overflow: hidden;
+                span.user-left i{
+                    display: inline-block;
+                    font-style: normal;
+                    margin-right: 5px;
+                    
+                }
+            }
+            span.reduce{
+                display: block;
+
+            }
+        }
+    }
+}
+.star .iconfont{
+    color: gold;
+}
